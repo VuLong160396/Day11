@@ -56,5 +56,9 @@ if __name__ == '__main__':
     t.end_fill()
     move_cursor(50 + 100/3 , -100/3)
     cua_so(100, 200)
-    
+    a = list(t.pos())
+    print(type(a))
+    b = a[0]
+    c = a[1]
+    print(b, ' ',c)
 turtle.done()
