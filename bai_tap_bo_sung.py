@@ -56,6 +56,7 @@ def one_side():
         for i in range(quanty):
             circle(r)
         t.end_fill()
+    # t.position()
 #_______________________MAIN______________________
 if __name__ == '__main__':
     count = 0
@@ -85,4 +86,5 @@ if __name__ == '__main__':
         t.end_fill()
     else:
         one_side()
+    t.position()
     turtle.done()
